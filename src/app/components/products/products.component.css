@@ -1,0 +1,21 @@
+.content {
+  text-align: center;
+}
+.content .midcol img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.content .midcol .verticle-line {
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+}
+.content div:nth-child(1) {
+  padding-bottom: 70px;
+}
+.content div:nth-child(3) {
+  padding-bottom: 70px;
+}/*# sourceMappingURL=products.component.css.map */

@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #CDE1EA;
+  font-weight: bold;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+}
+.navbar .navbar-brand img {
+  height: 35px;
+}
+.navbar .nav-item .nav-link {
+  color: blueviolet;
+  font-size: 18px;
+}
+.navbar .nav-item .nav-link:hover {
+  color: orange;
+}/*# sourceMappingURL=navigation.component.css.map */

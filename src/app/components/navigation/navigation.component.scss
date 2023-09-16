@@ -1,0 +1,20 @@
+.navbar{
+  background-color: #CDE1EA;
+  font-weight: bold;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  .navbar-brand{
+    img{
+      height: 35px;
+    }
+  }
+
+  .nav-item{
+    .nav-link{
+      color: blueviolet;
+      font-size: 18px;
+      &:hover{
+        color: orange;
+      }
+    }
+  }
+}

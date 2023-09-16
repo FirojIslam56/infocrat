@@ -1,0 +1,41 @@
+.contact{
+  background-image: url("../../../assets/images/world-map-wallpaper-8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  padding: 30px 50px;
+
+  .title-contact{
+    h2{
+      font-size: 3rem;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 20px;
+    }
+  }
+
+  .input-box{
+    height: 200px;
+    position: relative;
+    form{
+
+      .form-box{
+        display: flex;
+        justify-content: space-between;
+        input{
+          margin-bottom: 8px;
+        }
+      }
+      button{
+        background-color: rgb(226, 168, 42);
+        padding: 8px;
+        border: none;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        margin-top: 12px;
+      }
+    }
+  }
+}

@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+$bg-color: #e6e6e6;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: $bg-color;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+.title{
+  h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px 0 50px 0;
+  }
+}
+.sub-title{
+  color: orange;
+  font-weight: bold;
+}
